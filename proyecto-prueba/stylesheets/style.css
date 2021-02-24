@@ -24,28 +24,52 @@ ul{
 	list-style: none;
 }
 
+
+
 header .container_header{
-    background-image: url('img/about-2.jpg');
+    background-image: url('img/about-22.jpg');
+    background-color: rgba(0,0,0,0.1);
+    background-size: cover;
+	background-repeat: no-repeat;
+
 }
+
+/* opacidad al fondo */
+/* header .container_header:before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+ */
 header .header-up{
     background-color: rgba(0, 0, 45, 0.822);
     display: flex;
+    justify-content: space-around;
     height: 7rem;
 }
 
 header .link--logo{
-    width: 31%;
+    width: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 header .header-logo{
-    width: 28%;
-    height: 71%;
+    width: 40%;
+    height: 64%;
 }
 
-header .schedule{
 
+header .schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: arimo;
+    font-size: small;
 }
 
 header .open-text{
@@ -53,24 +77,159 @@ header .open-text{
 }
 
 header .schedule-days{
-    color: white
+    color: white;
+    padding: 8px 15px 0px 0px;
 }
+
 
 header .social-media{
+    display: flex;
+    align-items: center;
+    font-family: arimo;
+    font-size: small;
+}
+
+header .header-nav{
 
 }
+
+
 
 header .text-social-media{
     color: orange;
+    
 }
 
 header .text-social-media i{
     color: white;
+    padding: 8px 15px 0px 0px;
+    font-size: 15px;
 }
+
+header .contact{
+    font-family: arimo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+}
+
+header .contact-number{
+    color: orange;
+
+}
+header .contact-text{
+    color: white;
+    padding: 8px 15px 0px 0px;
+}
+
+
 
 header .header-nav{
     display: flex;
+    justify-content: center;
     background-color: white;
-    height: 30%;
+    list-style: none;
+    font-family: 'Arimo';
+    font-weight: bold;
 }
 
+header .header-nav li{
+    padding: 20px
+}
+
+header .header-down{
+    height: 74vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 45, 0.5);
+}
+
+header .header-down-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-family: 'Arimo';
+    width: 45%;
+    font-size: 1.4rem;
+}
+
+header .header-down-p {
+    padding-right: 8.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 12rem;
+    margin-top: 2rem;
+}
+
+header .header-form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+}
+
+
+
+header .header-form-text{
+    display: flex;
+    color: rgba(0, 0, 45);  
+    font-family: arimo;
+    margin-left: 12px;
+}
+
+
+header .header-form-child {
+    background-color: #e3dede;
+    height: 29rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
+header .header-form-input{
+    width:95%;  
+    margin-left: 10px;
+}
+header .header-form-input input {
+    padding: 0.9rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #cacaca;
+    outline: none;
+    background-color: #e3dede;
+    width: 100%;
+    color: rgba(0, 0, 45);
+}
+
+header .header-form-input input::placeholder{
+    color: rgba(0, 0, 45);
+
+}
+
+
+header .header-form, .email-tel{
+    display: flex;
+}
+
+
+header input[type="tel" i]{
+    width: 50%;
+}
+
+header .btn--send{
+    width: 100%;
+    padding: 0.9rem;
+    border: none;
+	outline: none;
+    background-color: rgba(0, 0, 45);
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 37px;
+}
