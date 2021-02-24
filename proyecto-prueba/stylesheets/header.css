@@ -31,7 +31,7 @@ header .container_header{
     background-color: rgba(0,0,0,0.1);
     background-size: cover;
 	background-repeat: no-repeat;
-
+    height: 119vh;
 }
 
 /* opacidad al fondo */
@@ -139,7 +139,7 @@ header .header-nav li{
 }
 
 header .header-down{
-    height: 74vh;
+    height: 93.7vh;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 45, 0.5);
