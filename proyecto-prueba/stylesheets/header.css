@@ -31,20 +31,9 @@ header .container_header{
     background-color: rgba(0,0,0,0.1);
     background-size: cover;
 	background-repeat: no-repeat;
-    height: 119vh;
 }
 
-/* opacidad al fondo */
-/* header .container_header:before{
-    content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}
- */
+
 header .header-up{
     background-color: rgba(0, 0, 45, 0.822);
     display: flex;
@@ -73,7 +62,7 @@ header .schedule{
 }
 
 header .open-text{
-    color: rgb(238, 169, 40);
+    color: #ff8100
 }
 
 header .schedule-days{
@@ -87,16 +76,12 @@ header .social-media{
     align-items: center;
     font-family: arimo;
     font-size: small;
+    padding-left: 12rem;
 }
-
-header .header-nav{
-
-}
-
 
 
 header .text-social-media{
-    color: orange;
+    color: #ff8100
     
 }
 
@@ -112,10 +97,11 @@ header .contact{
     flex-direction: column;
     justify-content: center;
     font-size: small;
+    padding-right: 50px;
 }
 
 header .contact-number{
-    color: orange;
+    color: #ff8100
 
 }
 header .contact-text{
@@ -139,7 +125,7 @@ header .header-nav li{
 }
 
 header .header-down{
-    height: 93.7vh;
+    height: 74vh;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 45, 0.5);
